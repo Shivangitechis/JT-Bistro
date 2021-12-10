@@ -82,7 +82,7 @@ const Home = () => {
               <li class="active">
                 <a href="/">All</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/?category=main-dishes">MAIN DISHES</a>
               </li>
               <li>
@@ -93,7 +93,7 @@ const Home = () => {
               </li>
               <li>
                 <a href="/?category=burger">BURGER BAR</a>
-              </li>
+              </li> */}
             </ul>
           </>
         )}
