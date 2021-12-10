@@ -1,9 +1,6 @@
 import axios from "axios";
 
-var baseURL;
-if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "PRODUCTION") {
-    baseURL = process.env.REACT_APP_API_BASE_URL;
-} else {
+var baseURL;{
     baseURL = "https://jt-bistro-backend.herokuapp.com/";
 }
 // baseURL = "https://jt-bistro-backend.herokuapp.com/";
