@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = ['http://localhost:3000',
                         'http://127.0.0.1:3000',
+                        'https://frontend-shivi.herokuapp.com',
                         
                         ]
 
@@ -163,7 +164,7 @@ cloudinary.config(
     cloud_name= "dx4jhfjmi",
     api_key="138178449467675",
     api_secret="IkB6XZevgMKagyrWmqCLkuIbaL4",
-    secure=True
+    secure=True,
 )
 
 REST_FRAMEWORK = {
