@@ -83,16 +83,16 @@ const Home = () => {
                 <a href="/">All</a>
               </li>
               <li>
-                <a href="/?category=hot">MAIN DISHES</a>
+                <a href="/?category=main-dishes">MAIN DISHES</a>
               </li>
               <li>
-                <a href="/?category=cold">KIDS MENU'S</a>
+                <a href="/?category=kids">KIDS MENU'S</a>
               </li>
               <li>
-                <a href="/?category=bagel">HOT BAGUETTE</a>
+                <a href="/?category=hot">HOT BAGUETTE</a>
               </li>
               <li>
-                <a href="/?category=bagel">BURGER BAR</a>
+                <a href="/?category=burger">BURGER BAR</a>
               </li>
             </ul>
           </>
