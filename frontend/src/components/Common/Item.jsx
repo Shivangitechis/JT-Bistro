@@ -22,6 +22,7 @@ const Item = ({ item, selected_count, setShowWriteReview, setShowReviews, setSel
     setSelectedItemId(item.id);
     setShowWriteReview(true);
   };
+  
   return (
     <>
       <img src={item.image} class="item-image" alt="" />
@@ -52,6 +53,7 @@ const Item = ({ item, selected_count, setShowWriteReview, setShowReviews, setSel
               <span class="plus" onClick={clickPlusCart}>
                 +
               </span>
+
             </div>
           )}
         </div>

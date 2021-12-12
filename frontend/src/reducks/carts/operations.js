@@ -41,6 +41,7 @@ export const increaseCart = (item) => {
   };
 };
 
+
 export const decreaseCart = (item) => {
   return async (dispatch, getState) => {
     let prevCarts = getState().carts.list;
